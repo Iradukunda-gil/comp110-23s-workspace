@@ -1,5 +1,6 @@
+"""introduction COMP 110"""
 print("Hello World.")
 print("Hello, student. Insert your PID")
 """my first program for COMP 110"""
-_author_= "730458371"
-print(_author_)
+__author__ = "730458371"
+print(__author__)
