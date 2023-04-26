@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from __future__ import annotations
 class Phone:
     number: str
@@ -34,3 +35,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+def main() -> None:
+    names0: dict[str,str] = {"Pre." : "lily", "VP": "Ruby"}
+    names1: dict[str,str] = {"VP":"Carlos", "sec" : "Lin"}
+    officers: dict[str,str] = merge(names0, names1)
+def merge(a: dict[str,str], b: dict[str,str]) -> dict[str,str]:
+    result: dict[str,str] = {}
+    for key in a:
+        print(key)
+
+main
+>>>>>>> 309e0bc93b944988bfafdfc52a4e98cd9cb390c1
